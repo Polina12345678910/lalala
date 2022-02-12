@@ -1,0 +1,65 @@
+.navbar a {
+  margin: 10px;
+}
+
+.navbar h2 {
+  color: #fff;
+}
+
+
+
+.line .carousel {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.line .line_text {
+  width: 50%;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #7fffd4;
+  transition: all 0.5s ease;
+}
+
+p {
+  color: #333;
+}
+
+.header_center {
+  display: flex;
+}
+
+.text_header {
+  font-size: 20px;
+}
+
+.text_header.center {
+  font-size: 24px;
+}
+
+.text_header a:hover {
+  text-shadow: 0 0 5px;
+  color: #000;
+  font-size: 30px;
+}
+
+.gilery a {
+  text-decoration: none;
+  color: #7fffd4;
+  transition: all 0.5s ease;
+}
+
+.stat a {
+  text-decoration: none;
+  color: #7fffd4;
+  transition: all 0.5s ease;
+}
+
+@media (max-width: 500px){
+  .line .carousel{
+    width: 100%;
+  }
+}
